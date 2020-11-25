@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/emid"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="E-mail"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="50sp"/>
+
+    <EditText
+        android:id="@+id/psid"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="50sp"/>
+
+    <Button
+        android:id="@+id/lgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="150sp"
+        android:text="Login" />
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="30sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="360sp"
+        android:text="New Member, Register here"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/rgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="142sp"
+        android:text="Register" />
+</RelativeLayout>

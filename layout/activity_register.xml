@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="251dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="40sp"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="251sp"
+        android:layout_marginTop="150sp"
+        android:layout_height="64sp"
+        android:layout_marginLeft="80sp"
+        android:hint="password" />
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="150sp"
+        android:text="Register"/>
+
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152sp"
+        android:layout_marginTop="350sp"
+        android:text="Login" />
+</RelativeLayout>
